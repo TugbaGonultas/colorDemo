@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="renkornek.FXMLDocumentController">
+   <children>
+      <ScrollBar fx:id="scr_red" layoutX="147.0" layoutY="71.0" max="255.0" prefHeight="17.0" prefWidth="362.0" onValueChange="#kirmiziDegisim" />
+      <ScrollBar fx:id="scr_green" layoutX="147.0" layoutY="110.0" max="255.0" prefHeight="17.0" prefWidth="362.0" onValueChange="#yesilDegisim" />
+      <ScrollBar fx:id="scr_blue" layoutX="147.0" layoutY="145.0" max="255.0" prefHeight="17.0" prefWidth="362.0" onValueChange="#maviDegisim" />
+      <Label layoutX="41.0" layoutY="72.0" text="Kırmızı" />
+      <Label layoutX="41.0" layoutY="111.0" text="Yeşil" />
+      <Label layoutX="41.0" layoutY="146.0" prefHeight="0.0" prefWidth="45.0" text="Mavi" />
+      <Label fx:id="lbl_color" layoutX="208.0" layoutY="221.0" prefHeight="63.0" prefWidth="202.0" text="Label" />
+   </children>
+</AnchorPane>
